@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 3.45 s <<< FAILURE! - in TestSuite
+FrameWork.Selenium.Homepage.initialize  Time elapsed: 3.152 s  <<< FAILURE!
+java.lang.NullPointerException
+	at FrameWork.Selenium.Homepage.initialize(Homepage.java:23)
+
+FrameWork.Selenium.ValidateTitle.initialize  Time elapsed: 3.154 s  <<< FAILURE!
+java.lang.NullPointerException
+	at FrameWork.Selenium.ValidateTitle.initialize(ValidateTitle.java:20)
+

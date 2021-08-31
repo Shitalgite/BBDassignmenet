@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-29T11:20:06 IST" name="Default suite" finished-at="2021-08-29T11:20:32 IST" duration-ms="26250">
+    <groups>
+    </groups>
+    <test started-at="2021-08-29T11:20:06 IST" name="Default test" finished-at="2021-08-29T11:20:32 IST" duration-ms="26250">
+      <class name="FrameWork.Selenium.Indiatimes">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameWork.Selenium.Indiatimes@3724af13]" started-at="2021-08-29T11:20:06 IST" name="initialize" finished-at="2021-08-29T11:20:09 IST" duration-ms="2399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="footer()[pri:0, instance:FrameWork.Selenium.Indiatimes@3724af13]" started-at="2021-08-29T11:20:09 IST" name="footer" finished-at="2021-08-29T11:20:32 IST" duration-ms="23423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FrameWork.Selenium.Indiatimes@3724af13]" started-at="2021-08-29T11:20:32 IST" name="tearDown" finished-at="2021-08-29T11:20:32 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FrameWork.Selenium.Indiatimes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

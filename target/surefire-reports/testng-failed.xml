@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="FrameWork.Selenium.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Validating title(failed)" parallel="tests">
+    <classes>
+      <class name="FrameWork.Selenium.ValidateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- FrameWork.Selenium.ValidateTitle -->
+    </classes>
+  </test> <!-- Validating title(failed) -->
+  <test thread-count="5" verbose="0" name="Validating Login(failed)" parallel="tests">
+    <classes>
+      <class name="FrameWork.Selenium.Homepage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- FrameWork.Selenium.Homepage -->
+    </classes>
+  </test> <!-- Validating Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->
